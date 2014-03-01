@@ -94,7 +94,9 @@ h2.wpcube { background: url(../images/logo.png) 100% 60% no-repeat; }
 }
 
 /* Admin Settings UI - Tabs */
-h2.nav-tab-wrapper.needs-js { display: none; }
+h2.nav-tab-wrapper.needs-js,
+h3.nav-tab-wrapper.needs-js { display: none; }
+#poststuff h3.nav-tab-wrapper { padding-bottom: 0; }
 
 /* Admin Settings UI - Sidebar */
 .postbox-container .option p strong { width: 80px; }

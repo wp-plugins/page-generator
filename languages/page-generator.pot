@@ -1,0 +1,408 @@
+# Copyright (C) 2014 Page Generator
+# This file is distributed under the same license as the Page Generator package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Page Generator 1.0.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/page-generator\n"
+"POT-Creation-Date: 2014-03-01 18:33:47+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: _modules/dashboard/views/dashboard-nodata.php:14
+msgid "Thanks for using our plugins - why not check out some of our other amazing Premium WordPress Plugins?"
+msgstr ""
+
+#: _modules/dashboard/views/dashboard-nodata.php:15
+#: _modules/dashboard/views/dashboard.php:40
+msgid "Visit WP Cube"
+msgstr ""
+
+#: _modules/dashboard/views/dashboard.php:18
+msgid "Thanks for using our plugins - why not check out some of our other amazing Premium WordPress Plugins below?"
+msgstr ""
+
+#: _modules/dashboard/views/dashboard.php:33
+msgid "Visit the WP Cube Web Site"
+msgstr ""
+
+#: _modules/dashboard/views/dashboard.php:39
+msgid "Why not visit"
+msgstr ""
+
+#: _modules/dashboard/views/dashboard.php:39
+msgid "and check out some of our other amazing Premium WordPress Plugins?"
+msgstr ""
+
+#: _modules/dashboard/views/footer-upgrade.php:5
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: _modules/dashboard/views/footer-upgrade.php:16
+#: _modules/dashboard/views/sidebar-pro.php:23
+#: _modules/dashboard/views/sidebar-pro.php:28
+msgid "Support"
+msgstr ""
+
+#: _modules/dashboard/views/footer-upgrade.php:16
+msgid "Access to one on one email support"
+msgstr ""
+
+#: _modules/dashboard/views/footer-upgrade.php:17
+#: _modules/dashboard/views/sidebar-pro.php:27
+msgid "Documentation"
+msgstr ""
+
+#: _modules/dashboard/views/footer-upgrade.php:17
+msgid "Detailed documentation on how to install and configure the plugin"
+msgstr ""
+
+#: _modules/dashboard/views/footer-upgrade.php:18
+msgid "Updates"
+msgstr ""
+
+#: _modules/dashboard/views/footer-upgrade.php:18
+msgid "Receive one click update notifications, right within your WordPress Adminstration panel"
+msgstr ""
+
+#: _modules/dashboard/views/footer-upgrade.php:19
+msgid "Seamless Upgrade"
+msgstr ""
+
+#: _modules/dashboard/views/footer-upgrade.php:19
+msgid "Retain all current settings when upgrading to Pro"
+msgstr ""
+
+#: _modules/dashboard/views/footer-upgrade.php:25
+msgid "Upgrade Now"
+msgstr ""
+
+#: _modules/dashboard/views/sidebar-donate.php:10
+#: _modules/dashboard/views/sidebar-pro.php:10
+msgid "About"
+msgstr ""
+
+#: _modules/dashboard/views/sidebar-donate.php:13
+msgid "Found this plugin useful? Donations to help with support and development are appreciated."
+msgstr ""
+
+#: _modules/dashboard/views/sidebar-donate.php:30
+msgid "Donate Now"
+msgstr ""
+
+#: _modules/dashboard/views/sidebar-donate.php:40
+#: _modules/dashboard/views/sidebar-upgrade.php:10
+msgid "Keep Updated"
+msgstr ""
+
+#: _modules/dashboard/views/sidebar-donate.php:43
+#: _modules/dashboard/views/sidebar-upgrade.php:13
+msgid "Subscribe to the newsletter and receive updates on our WordPress Plugins"
+msgstr ""
+
+#: _modules/dashboard/views/sidebar-donate.php:49
+#: _modules/dashboard/views/sidebar-upgrade.php:19
+msgid "Email"
+msgstr ""
+
+#: _modules/dashboard/views/sidebar-donate.php:55
+#: _modules/dashboard/views/sidebar-upgrade.php:25
+msgid "Subscribe"
+msgstr ""
+
+#: _modules/dashboard/views/sidebar-pro.php:14
+msgid "Version"
+msgstr ""
+
+#: models/keywords-table.php:29
+msgid "Keywords are used to product unique content for each Page that is generated."
+msgstr ""
+
+#: models/keywords-table.php:30
+msgid "Create first keyword."
+msgstr ""
+
+#: models/keywords-table.php:41 views/keywords-form.php:26
+#: views/keywords-form.php:31
+msgid "Keyword"
+msgstr ""
+
+#: models/keywords-table.php:61 models/keywords-table.php:129
+msgid "Delete"
+msgstr ""
+
+#: models/keywords-table.php:126 models/keywords-table.php:128
+msgid "Edit this item"
+msgstr ""
+
+#: models/keywords-table.php:128
+msgid "Edit"
+msgstr ""
+
+#: models/keywords-table.php:129
+msgid "Delete this item"
+msgstr ""
+
+#: models/keywords.php:168
+msgid "Please enter a keyword."
+msgstr ""
+
+#: models/keywords.php:190
+msgid "Please enter some keyword data, or import some using a CSV or text file."
+msgstr ""
+
+#: models/keywords.php:217
+msgid "Keyword already exists. Please use a unique shortname name for each keyword."
+msgstr ""
+
+#: models/keywords.php:248
+msgid "Keyword could not be deleted from the database."
+msgstr ""
+
+#: models/keywords.php:266
+msgid "Keywords could not be deleted from the database."
+msgstr ""
+
+#: page-generator.php:54 page-generator.php:171 views/generate.php:2
+#: views/generate.php:193
+msgid "Generate"
+msgstr ""
+
+#: page-generator.php:56
+msgid "Generate Posts, Pages or Custom Post Types"
+msgstr ""
+
+#: page-generator.php:56
+msgid "Generate Posts, Pages and any registered Custom Post Types."
+msgstr ""
+
+#: page-generator.php:57
+msgid "Taxonomies"
+msgstr ""
+
+#: page-generator.php:57
+msgid "Choose taxonomy terms for Posts and Custom Post Types."
+msgstr ""
+
+#: page-generator.php:58
+msgid "Automatically build nearby cities keywords"
+msgstr ""
+
+#: page-generator.php:58
+msgid "Enter a city name, country and radius to automatically build a keyword containing all nearby cities."
+msgstr ""
+
+#: page-generator.php:59
+msgid "Google Maps Block"
+msgstr ""
+
+#: page-generator.php:59
+msgid "Insert a Google Maps content block."
+msgstr ""
+
+#: page-generator.php:60
+msgid "Wikipedia Block"
+msgstr ""
+
+#: page-generator.php:60
+msgid "Insert content from a Wikipedia article."
+msgstr ""
+
+#: page-generator.php:61
+msgid "Yelp Local Businesses Block"
+msgstr ""
+
+#: page-generator.php:61
+msgid "Insert a list of local businesses listed on Yelp."
+msgstr ""
+
+#: page-generator.php:62
+msgid "Featured Image"
+msgstr ""
+
+#: page-generator.php:62
+msgid "Choose to include your featured image on each Page, Post or CPT."
+msgstr ""
+
+#: page-generator.php:126 views/keywords-form.php:2 views/keywords-table.php:3
+msgid "Keywords"
+msgstr ""
+
+#: page-generator.php:157 views/generate.php:188 views/generate.php:191
+#: views/keywords-form.php:65
+msgid "Save"
+msgstr ""
+
+#: page-generator.php:159
+msgid "Settings Updated."
+msgstr ""
+
+#: page-generator.php:161 views/generate.php:192
+msgid "Test"
+msgstr ""
+
+#: page-generator.php:168
+msgid "Test Page Generated."
+msgstr ""
+
+#: page-generator.php:168
+msgid "View Test"
+msgstr ""
+
+#: page-generator.php:178
+msgid "Pages Generated."
+msgstr ""
+
+#: page-generator.php:224
+msgid "Keyword created."
+msgstr ""
+
+#: page-generator.php:236
+msgid "Keyword deleted."
+msgstr ""
+
+#: page-generator.php:288
+msgid "Keywords deleted."
+msgstr ""
+
+#: page-generator.php:334
+msgid "No keywords were specified in the title, content or excerpt."
+msgstr ""
+
+#: views/generate.php:27 views/generate.php:72
+msgid "Content"
+msgstr ""
+
+#: views/generate.php:31
+msgid "Title"
+msgstr ""
+
+#: views/generate.php:50
+msgid "Permalink"
+msgstr ""
+
+#: views/generate.php:66
+msgid "Letters, numbers, underscores and dashes only. If left blank, will be automatically generated."
+msgstr ""
+
+#: views/generate.php:79
+msgid "Remember to use your keywords to build dynamic content.  For example, if you have a city keywords, use {city} to have each Page output a unique city name."
+msgstr ""
+
+#: views/generate.php:86 views/generate.php:101
+msgid "Author"
+msgstr ""
+
+#: views/generate.php:90
+msgid "Rotate?"
+msgstr ""
+
+#: views/generate.php:95
+msgid "If checked, will choose a WordPress User at random for each Page/Post generated."
+msgstr ""
+
+#: views/generate.php:122
+msgid "Discussion"
+msgstr ""
+
+#: views/generate.php:128
+msgid "Allow comments."
+msgstr ""
+
+#: views/generate.php:136
+msgid "Allow trackbacks and pingbacks."
+msgstr ""
+
+#: views/generate.php:149 views/generate.php:156
+msgid "Publish"
+msgstr ""
+
+#: views/generate.php:153
+msgid "Status"
+msgstr ""
+
+#: views/generate.php:155
+msgid "Draft"
+msgstr ""
+
+#: views/generate.php:163
+msgid "No. Posts"
+msgstr ""
+
+#: views/generate.php:168
+msgid "The number of Posts/Pages to generate."
+msgstr ""
+
+#: views/generate.php:175
+msgid "Page Template"
+msgstr ""
+
+#: views/generate.php:178
+msgid "Template"
+msgstr ""
+
+#: views/generate.php:180
+msgid "Default Template"
+msgstr ""
+
+#: views/keywords-form.php:35
+msgid "A unique template tag name, which can then be used when generating content."
+msgstr ""
+
+#: views/keywords-form.php:41
+msgid "Keyword Data"
+msgstr ""
+
+#: views/keywords-form.php:45
+msgid "Word(s) or phrase(s) which will be cycled through when generating content using the above keyword template tag."
+msgstr ""
+
+#: views/keywords-form.php:47
+msgid "One word / phase per line."
+msgstr ""
+
+#: views/keywords-form.php:53
+msgid "Data Import"
+msgstr ""
+
+#: views/keywords-form.php:57
+msgid "To mass import data, upload either a CSV file (format word1,word2,word3) or TXT file (one word / phrase per line)."
+msgstr ""
+
+#: views/keywords-form.php:59
+msgid "This will append the imported words / phrases to the above Keyword Data."
+msgstr ""
+
+#: views/keywords-table.php:4
+msgid "Add Keyword"
+msgstr ""
+
+#: views/keywords-table.php:10
+msgid "Search results for"
+msgstr ""
+
+#: views/keywords-table.php:36 views/keywords-table.php:38
+msgid "Search Keywords"
+msgstr ""
+#. Plugin Name of the plugin/theme
+msgid "Page Generator"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.wpcube.co.uk/plugins/page-generator"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Generate multiple Pages using dynamic content"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WP Cube"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.wpcube.co.uk"
+msgstr ""

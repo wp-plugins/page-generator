@@ -2,7 +2,7 @@
 /**
 * Plugin Name: Page Generator
 * Plugin URI: http://www.wpcube.co.uk/plugins/page-generator
-* Version: 1.0
+* Version: 1.0.1
 * Author: WP Cube
 * Author URI: http://www.wpcube.co.uk
 * Description: Generate multiple Pages using dynamic content
@@ -25,13 +25,15 @@
     Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
+ob_start();
+
 /**
 * Page Generator Class
 * 
 * @package WP Cube
 * @subpackage Page Generator
 * @author Tim Carr
-* @version 1.0
+* @version 1.0.1
 * @copyright WP Cube
 */
 class PageGenerator {
@@ -46,7 +48,7 @@ class PageGenerator {
         $this->plugin->name = 'page-generator'; // Plugin Folder
         $this->plugin->settingsName = 'page-generator';
         $this->plugin->displayName = 'Page Generator'; // Plugin Name
-        $this->plugin->version = '1.0'; // The version of this plugin
+        $this->plugin->version = '1.0.1'; // The version of this plugin
         $this->plugin->folder = WP_PLUGIN_DIR.'/'.$this->plugin->name; // Full Path to Plugin Folder
         $this->plugin->url = WP_PLUGIN_URL.'/'.str_replace(basename( __FILE__),"",plugin_basename(__FILE__)); // Ful URL to Plugin folder
         $this->plugin->subPanels = array(__('Generate'));
@@ -76,6 +78,7 @@ class PageGenerator {
 		// Hooks
         add_action('admin_enqueue_scripts', array(&$this, 'adminScriptsAndCSS'));
         add_action('admin_menu', array(&$this, 'adminPanelsAndMetaBoxes'));
+        add_action('plugins_loaded', array(&$this, 'loadLanguageFiles'));
     }
     
     /**
@@ -305,6 +308,13 @@ class PageGenerator {
 		// Load Settings Form
         include_once($this->plugin->folder.'/'.$view);  
     }
+    
+    /**
+	* Loads plugin textdomain
+	*/
+	function loadLanguageFiles() {
+		load_plugin_textdomain($this->plugin->name, false, $this->plugin->name.'/languages/');
+	}
     
     /**
     * Main function to generate Pages
