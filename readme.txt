@@ -1,9 +1,9 @@
 === Page Generator ===
 Contributors: n7studios,wpcube
 Donate link: http://www.wpcube.co.uk/plugins/page-generator-pro
-Tags: page,generator,content,bulk,pages
+Tags: page,generator,content,bulk,pages,seo,spintax
 Requires at least: 3.6
-Tested up to: 3.8.1
+Tested up to: 3.9.1
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -61,8 +61,10 @@ Find out more about us:
 
 == Changelog ==
 
+= 1.0.2 =
+* Added: Support for HTML elements in keyword data
+
 = 1.0.1 =
-* Fix: "Cannot modify header information" error when saving a keyword
 * Added translation support and .pot file
 
 = 1.0 =
