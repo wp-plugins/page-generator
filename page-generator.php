@@ -2,7 +2,7 @@
 /**
 * Plugin Name: Page Generator
 * Plugin URI: http://www.wpcube.co.uk/plugins/page-generator
-* Version: 1.0.2
+* Version: 1.0.3
 * Author: WP Cube
 * Author URI: http://www.wpcube.co.uk
 * Description: Generate multiple Pages using dynamic content
@@ -31,7 +31,7 @@
 * @package WP Cube
 * @subpackage Page Generator
 * @author Tim Carr
-* @version 1.0.2
+* @version 1.0.3
 * @copyright WP Cube
 */
 class PageGenerator {
@@ -46,7 +46,7 @@ class PageGenerator {
         $this->plugin->name = 'page-generator'; // Plugin Folder
         $this->plugin->settingsName = 'page-generator';
         $this->plugin->displayName = 'Page Generator'; // Plugin Name
-        $this->plugin->version = '1.0.2'; // The version of this plugin
+        $this->plugin->version = '1.0.3'; // The version of this plugin
         $this->plugin->folder = WP_PLUGIN_DIR.'/'.$this->plugin->name; // Full Path to Plugin Folder
         $this->plugin->url = WP_PLUGIN_URL.'/'.str_replace(basename( __FILE__),"",plugin_basename(__FILE__)); // Ful URL to Plugin folder
         $this->plugin->subPanels = array(__('Generate'));

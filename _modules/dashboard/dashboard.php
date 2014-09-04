@@ -24,7 +24,6 @@ class WPCubeDashboardWidget {
 		add_filter('admin_footer_text', array(&$this, 'adminFooterText'));
 		add_action('wp_dashboard_setup', array(&$this, 'dashboardWidget'));
 		add_action('wp_network_dashboard_setup', array(&$this, 'dashboardWidget'));	
-		
 	}     
 	
 	/**
