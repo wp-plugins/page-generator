@@ -65,4 +65,20 @@ jQuery(document).ready(function($) {
 			});
 		});
 	}
+	
+	/**
+	* Debug
+	* When the debug textarea is clicked, select all of the text inside it ready for
+	* the user to copy
+	*/
+	if ($('textarea[name=wpcube-debug]').length > 0) {
+		$('textarea[name=wpcube-debug]').focus(function() {
+			$(this).select();
+			$(this).mouseup(function() {
+				// Prevent further mouseup intervention
+				$(this).unbind("mouseup");
+				return false;
+			});	
+		});
+	}
 });
