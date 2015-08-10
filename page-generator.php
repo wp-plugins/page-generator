@@ -2,7 +2,7 @@
 /**
 * Plugin Name: Page Generator
 * Plugin URI: http://www.wpcube.co.uk/plugins/page-generator
-* Version: 1.0.1
+* Version: 1.0.4
 * Author: WP Cube
 * Author URI: http://www.wpcube.co.uk
 * Description: Generate multiple Pages using dynamic content
@@ -25,32 +25,31 @@
     Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
-ob_start();
-
 /**
 * Page Generator Class
 * 
 * @package WP Cube
 * @subpackage Page Generator
 * @author Tim Carr
-* @version 1.0.1
+* @version 1.0.4
 * @copyright WP Cube
 */
 class PageGenerator {
     /**
     * Constructor. Acts as a bootstrap to load the rest of the plugin
     */
-    function PageGenerator() {
+    function __construct() {
+
     	global $pgKeywords;
-    	
+
         // Plugin Details
-        $this->plugin = new stdClass;
-        $this->plugin->name = 'page-generator'; // Plugin Folder
+        $this->plugin               = new stdClass;
+        $this->plugin->name         = 'page-generator'; // Plugin Folder
         $this->plugin->settingsName = 'page-generator';
-        $this->plugin->displayName = 'Page Generator'; // Plugin Name
-        $this->plugin->version = '1.0.1'; // The version of this plugin
-        $this->plugin->folder = WP_PLUGIN_DIR.'/'.$this->plugin->name; // Full Path to Plugin Folder
-        $this->plugin->url = WP_PLUGIN_URL.'/'.str_replace(basename( __FILE__),"",plugin_basename(__FILE__)); // Ful URL to Plugin folder
+        $this->plugin->displayName  = 'Page Generator'; // Plugin Name
+        $this->plugin->version      = '1.0.4';
+        $this->plugin->folder       = plugin_dir_path( __FILE__ );
+        $this->plugin->url          = plugin_dir_url( __FILE__ );
         $this->plugin->subPanels = array(__('Generate'));
         $this->plugin->upgradeReasons = array(
         	array(__('Generate Posts, Pages or Custom Post Types'), __('Generate Posts, Pages and any registered Custom Post Types.')),
@@ -369,7 +368,7 @@ class PageGenerator {
     			// Go through each field, replacing {keyword} with keyword 
     			foreach ($settings as $key=>$value) {
     				$index = $currentKeywordIndex[$keyword];
-    				$replacement = $keywordArr['dataArr'][$index];
+    				$replacement = html_entity_decode($keywordArr['dataArr'][$index]);
     				$settings[$key] = str_replace('{'.$keyword.'}', trim($replacement), $value);	
     			}
     			

@@ -1,19 +1,21 @@
-# Copyright (C) 2014 Page Generator
+# Copyright (C) 2015 Page Generator
 # This file is distributed under the same license as the Page Generator package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Page Generator 1.0.1\n"
-"Report-Msgid-Bugs-To: http://wordpress.org/tag/page-generator\n"
-"POT-Creation-Date: 2014-03-01 18:33:47+00:00\n"
+"Project-Id-Version: Page Generator 1.0.3\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/page-generator\n"
+"POT-Creation-Date: 2015-03-26 11:33:01+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 
 #: _modules/dashboard/views/dashboard-nodata.php:14
-msgid "Thanks for using our plugins - why not check out some of our other amazing Premium WordPress Plugins?"
+msgid ""
+"Thanks for using our plugins - why not check out some of our other amazing "
+"Premium WordPress Plugins?"
 msgstr ""
 
 #: _modules/dashboard/views/dashboard-nodata.php:15
@@ -22,7 +24,9 @@ msgid "Visit WP Cube"
 msgstr ""
 
 #: _modules/dashboard/views/dashboard.php:18
-msgid "Thanks for using our plugins - why not check out some of our other amazing Premium WordPress Plugins below?"
+msgid ""
+"Thanks for using our plugins - why not check out some of our other amazing "
+"Premium WordPress Plugins below?"
 msgstr ""
 
 #: _modules/dashboard/views/dashboard.php:33
@@ -43,7 +47,7 @@ msgstr ""
 
 #: _modules/dashboard/views/footer-upgrade.php:16
 #: _modules/dashboard/views/sidebar-pro.php:23
-#: _modules/dashboard/views/sidebar-pro.php:28
+#: _modules/dashboard/views/sidebar-pro.php:30
 msgid "Support"
 msgstr ""
 
@@ -52,7 +56,7 @@ msgid "Access to one on one email support"
 msgstr ""
 
 #: _modules/dashboard/views/footer-upgrade.php:17
-#: _modules/dashboard/views/sidebar-pro.php:27
+#: _modules/dashboard/views/sidebar-pro.php:28
 msgid "Documentation"
 msgstr ""
 
@@ -65,7 +69,9 @@ msgid "Updates"
 msgstr ""
 
 #: _modules/dashboard/views/footer-upgrade.php:18
-msgid "Receive one click update notifications, right within your WordPress Adminstration panel"
+msgid ""
+"Receive one click update notifications, right within your WordPress "
+"Adminstration panel"
 msgstr ""
 
 #: _modules/dashboard/views/footer-upgrade.php:19
@@ -86,7 +92,9 @@ msgid "About"
 msgstr ""
 
 #: _modules/dashboard/views/sidebar-donate.php:13
-msgid "Found this plugin useful? Donations to help with support and development are appreciated."
+msgid ""
+"Found this plugin useful? Donations to help with support and development are "
+"appreciated."
 msgstr ""
 
 #: _modules/dashboard/views/sidebar-donate.php:30
@@ -100,7 +108,8 @@ msgstr ""
 
 #: _modules/dashboard/views/sidebar-donate.php:43
 #: _modules/dashboard/views/sidebar-upgrade.php:13
-msgid "Subscribe to the newsletter and receive updates on our WordPress Plugins"
+msgid ""
+"Subscribe to the newsletter and receive updates on our WordPress Plugins"
 msgstr ""
 
 #: _modules/dashboard/views/sidebar-donate.php:49
@@ -118,7 +127,8 @@ msgid "Version"
 msgstr ""
 
 #: models/keywords-table.php:29
-msgid "Keywords are used to product unique content for each Page that is generated."
+msgid ""
+"Keywords are used to product unique content for each Page that is generated."
 msgstr ""
 
 #: models/keywords-table.php:30
@@ -151,11 +161,13 @@ msgid "Please enter a keyword."
 msgstr ""
 
 #: models/keywords.php:190
-msgid "Please enter some keyword data, or import some using a CSV or text file."
+msgid ""
+"Please enter some keyword data, or import some using a CSV or text file."
 msgstr ""
 
 #: models/keywords.php:217
-msgid "Keyword already exists. Please use a unique shortname name for each keyword."
+msgid ""
+"Keyword already exists. Please use a unique shortname name for each keyword."
 msgstr ""
 
 #: models/keywords.php:248
@@ -166,109 +178,111 @@ msgstr ""
 msgid "Keywords could not be deleted from the database."
 msgstr ""
 
-#: page-generator.php:54 page-generator.php:171 views/generate.php:2
+#: page-generator.php:52 page-generator.php:169 views/generate.php:2
 #: views/generate.php:193
 msgid "Generate"
 msgstr ""
 
-#: page-generator.php:56
+#: page-generator.php:54
 msgid "Generate Posts, Pages or Custom Post Types"
 msgstr ""
 
-#: page-generator.php:56
+#: page-generator.php:54
 msgid "Generate Posts, Pages and any registered Custom Post Types."
 msgstr ""
 
-#: page-generator.php:57
+#: page-generator.php:55
 msgid "Taxonomies"
 msgstr ""
 
-#: page-generator.php:57
+#: page-generator.php:55
 msgid "Choose taxonomy terms for Posts and Custom Post Types."
 msgstr ""
 
-#: page-generator.php:58
+#: page-generator.php:56
 msgid "Automatically build nearby cities keywords"
 msgstr ""
 
-#: page-generator.php:58
-msgid "Enter a city name, country and radius to automatically build a keyword containing all nearby cities."
+#: page-generator.php:56
+msgid ""
+"Enter a city name, country and radius to automatically build a keyword "
+"containing all nearby cities."
 msgstr ""
 
-#: page-generator.php:59
+#: page-generator.php:57
 msgid "Google Maps Block"
 msgstr ""
 
-#: page-generator.php:59
+#: page-generator.php:57
 msgid "Insert a Google Maps content block."
 msgstr ""
 
-#: page-generator.php:60
+#: page-generator.php:58
 msgid "Wikipedia Block"
 msgstr ""
 
-#: page-generator.php:60
+#: page-generator.php:58
 msgid "Insert content from a Wikipedia article."
 msgstr ""
 
-#: page-generator.php:61
+#: page-generator.php:59
 msgid "Yelp Local Businesses Block"
 msgstr ""
 
-#: page-generator.php:61
+#: page-generator.php:59
 msgid "Insert a list of local businesses listed on Yelp."
 msgstr ""
 
-#: page-generator.php:62
+#: page-generator.php:60
 msgid "Featured Image"
 msgstr ""
 
-#: page-generator.php:62
+#: page-generator.php:60
 msgid "Choose to include your featured image on each Page, Post or CPT."
 msgstr ""
 
-#: page-generator.php:126 views/keywords-form.php:2 views/keywords-table.php:3
+#: page-generator.php:124 views/keywords-form.php:2 views/keywords-table.php:3
 msgid "Keywords"
 msgstr ""
 
-#: page-generator.php:157 views/generate.php:188 views/generate.php:191
+#: page-generator.php:155 views/generate.php:188 views/generate.php:191
 #: views/keywords-form.php:65
 msgid "Save"
 msgstr ""
 
-#: page-generator.php:159
+#: page-generator.php:157
 msgid "Settings Updated."
 msgstr ""
 
-#: page-generator.php:161 views/generate.php:192
+#: page-generator.php:159 views/generate.php:192
 msgid "Test"
 msgstr ""
 
-#: page-generator.php:168
+#: page-generator.php:166
 msgid "Test Page Generated."
 msgstr ""
 
-#: page-generator.php:168
+#: page-generator.php:166
 msgid "View Test"
 msgstr ""
 
-#: page-generator.php:178
+#: page-generator.php:176
 msgid "Pages Generated."
 msgstr ""
 
-#: page-generator.php:224
+#: page-generator.php:222
 msgid "Keyword created."
 msgstr ""
 
-#: page-generator.php:236
+#: page-generator.php:234
 msgid "Keyword deleted."
 msgstr ""
 
-#: page-generator.php:288
+#: page-generator.php:286
 msgid "Keywords deleted."
 msgstr ""
 
-#: page-generator.php:334
+#: page-generator.php:332
 msgid "No keywords were specified in the title, content or excerpt."
 msgstr ""
 
@@ -285,11 +299,15 @@ msgid "Permalink"
 msgstr ""
 
 #: views/generate.php:66
-msgid "Letters, numbers, underscores and dashes only. If left blank, will be automatically generated."
+msgid ""
+"Letters, numbers, underscores and dashes only. If left blank, will be "
+"automatically generated."
 msgstr ""
 
 #: views/generate.php:79
-msgid "Remember to use your keywords to build dynamic content.  For example, if you have a city keywords, use {city} to have each Page output a unique city name."
+msgid ""
+"Remember to use your keywords to build dynamic content.  For example, if you "
+"have a city keywords, use {city} to have each Page output a unique city name."
 msgstr ""
 
 #: views/generate.php:86 views/generate.php:101
@@ -301,7 +319,9 @@ msgid "Rotate?"
 msgstr ""
 
 #: views/generate.php:95
-msgid "If checked, will choose a WordPress User at random for each Page/Post generated."
+msgid ""
+"If checked, will choose a WordPress User at random for each Page/Post "
+"generated."
 msgstr ""
 
 #: views/generate.php:122
@@ -349,7 +369,8 @@ msgid "Default Template"
 msgstr ""
 
 #: views/keywords-form.php:35
-msgid "A unique template tag name, which can then be used when generating content."
+msgid ""
+"A unique template tag name, which can then be used when generating content."
 msgstr ""
 
 #: views/keywords-form.php:41
@@ -357,7 +378,9 @@ msgid "Keyword Data"
 msgstr ""
 
 #: views/keywords-form.php:45
-msgid "Word(s) or phrase(s) which will be cycled through when generating content using the above keyword template tag."
+msgid ""
+"Word(s) or phrase(s) which will be cycled through when generating content "
+"using the above keyword template tag."
 msgstr ""
 
 #: views/keywords-form.php:47
@@ -369,11 +392,14 @@ msgid "Data Import"
 msgstr ""
 
 #: views/keywords-form.php:57
-msgid "To mass import data, upload either a CSV file (format word1,word2,word3) or TXT file (one word / phrase per line)."
+msgid ""
+"To mass import data, upload either a CSV file (format word1,word2,word3) or "
+"TXT file (one word / phrase per line)."
 msgstr ""
 
 #: views/keywords-form.php:59
-msgid "This will append the imported words / phrases to the above Keyword Data."
+msgid ""
+"This will append the imported words / phrases to the above Keyword Data."
 msgstr ""
 
 #: views/keywords-table.php:4
@@ -387,6 +413,7 @@ msgstr ""
 #: views/keywords-table.php:36 views/keywords-table.php:38
 msgid "Search Keywords"
 msgstr ""
+
 #. Plugin Name of the plugin/theme
 msgid "Page Generator"
 msgstr ""
